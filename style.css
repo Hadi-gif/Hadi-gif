@@ -14,7 +14,7 @@ h1, h2, h3, h4 ,h5, h6 {
 head.masthead {
 	position: relative;
 	background: rgba(32,140,150,1.00);
-	background: url(file:///D:/rongnho2001/bg-masthead.jpg) no-repeat center center;
+	background: url(bg-masthead.jpg) no-repeat center center;
 	background-size:cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem
@@ -86,7 +86,7 @@ header.masthead h1 {
 .call-to-action {
 	position: relative;
 	background-color: rgba(35,11,44,1.00);
-	background: url(file:///D:/rongnho2001/bg-masthead.jpg) no-repeat center center;
+	background: url(bg-masthead.jpg) no-repeat center center;
 	background-size: cover;
 	padding-top: 7rem;
 	padding-bottom: 7rem
