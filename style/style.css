@@ -1,0 +1,111 @@
+@charset "utf-8";
+/*CSS Document*/
+/*!
+*Start Bootstap - Langding Page v5.0.8(https://startbootstrap.com/theme/landing-page)
+Copyright 2013-2020 Start Bootstrap
+*Licensed under MIT (https://github.com/StartBootrap/startbootstrap-landing-page/blod/master/LICENSE)
+8*/body{
+	font-family: 'Roboto';
+}
+h1, h2, h3, h4 ,h5, h6 {
+	font-family: 'Roboto';
+	font-weight:700	
+}
+head.masthead {
+	position: relative;
+	background: rgba(32,140,150,1.00);
+	background: url(file:///D:/rongnho2001/bg-masthead.jpg) no-repeat center center;
+	background-size:cover;
+	padding-top: 8rem;
+	padding-bottom: 8rem
+}
+header.masthead .overlay {
+	position:absolute;
+	background-color: rgba(68,24,75,1.00);
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	opacity: .3
+}
+header.masthead h1 {
+	font-size: 2rem
+}
+@media (min-width:768px){
+	header.masthead {
+		padding-top: 12rem;
+		padding-bottom: 12rem
+	}
+	head.masthead h1 {
+		font-size: 3rem
+	}
+}
+.showcase .showcase-text{
+	padding: 3rem
+}
+.showcase .showcase-img {
+	min-height: 30rem;
+	background-size: cover
+}
+@media (min-width:768px){
+	.showcase .showcase-text {
+		padding: 7rem
+	}
+}
+.features-icon {
+	padding-top:7rem;
+	padding-bottom: 7rem
+		
+}
+.features-icons .features-icons-item {
+	max-width: 20rem
+}
+.features-icons .features-icons-item {
+	max-width: 20rem
+}
+.features-icons .features-icons-item.features-icons-icon{
+	height: 7rem
+}
+.features-icons .features-icons-item.features-icons-icon i{
+	font-size: 4.5rem
+}
+.feature-icons .features-icons-item:hover .features-icons-ico i {
+	font-size: 5rem
+}
+.testimonials {
+	padding-top: 7rem;
+	padding-bottom: 7rem
+}
+.testimonials .testimonial-item{
+	max-width: 18rem
+}
+.testimonials .testimoial-item img{
+	max-width: 12rem;
+	box-shadow: 0 5px 5px 0 #adb5bd		
+}
+.call-to-action {
+	position: relative;
+	background-color: rgba(35,11,44,1.00);
+	background: url(file:///D:/rongnho2001/bg-masthead.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom: 7rem
+}
+.call-to-action .overlay{
+	position: absolute;
+	background-color: #114F0D;
+	height: 100%;
+	width:100%;
+	top: 0;
+	left: 0;
+	opacity:.3
+}
+footer.footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem
+}
+
+	
+
+
+	
