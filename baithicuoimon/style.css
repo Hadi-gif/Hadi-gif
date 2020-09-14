@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 1920px;
+	height: 4600px;
+	background: none;
+	margin: 0 auto;
+}
+
+.header-main{
+	width: 100%;
+	background: rgba(0,0,0,1.00);
+	position: fixed;
+	z-index: 99999;
+}
+.container{
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 30%;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+
+.logo img{
+	width: 50%;
+	position: absolute;
+	top: 0;
+	right: 10%;
+	
+}
+
+
+.menu{
+	width: 60%;
+	height: 100px;
+	float: right;
+	text-align: center;
+	list-style: none;
+	
+}
+
+
+
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+	position: relative;
+	top: 40px;
+	padding: 0px 50px;
+	background: rgba(255,255,255,1.00);
+   
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.content{
+	width: 100%;
+	height: 4080px;
+	background: orange;
+}
+
+.banner{
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: auto;
+	
+
+}
+.banner img{
+	width: 1920px;
+	height: 850px;
+}
+
+.feature{
+	width: 100%;
+}
+.feature .container{
+	width: 1140px;
+	margin: 0 auto;
+	margin-top: 80px;
+	height: 300px;
+}
+.feature-left{
+	float: left;
+	width: 750px;
+}
+.feature-left h1{
+	color:aliceblue;
+	text-align: center
+}
+.feature-left p{
+	color:rgba(0,0,0,1.00);
+	
+}
+.card{
+	float: left;
+	width: 320px;
+	height: 300px;
+	display: block;
+	margin-right: 50px;
+	padding:20px 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	background-color:aqua;
+}
+
+.piplup img{
+	top: 20px;
+	width:200px;
+	
+	
+}
+.cat img{
+	top: 20px;
+	width:200px;
+}
+.snivy img{
+	width: 200px
+		
+}
+.feature-left p{
+	padding: 30px 15px 30px 0px;
+}
+.feature-left .card h2{
+	margin-top: 65px;
+	color: darkgray;	
+}
+.feature-left .card p{
+	color: antiquewhite;
+	text-align: center;
+	font-size: 16px;
+}
+.feature-right{
+	float: left;
+	width: 390px;
+	border: 2px ;
+}
+.feature-right img{
+	width: 100%;
+	margin-bottom: 5px;
+		
+}
+.feature-right h3{
+	font-size: 18px;
+	color: blueviolet;
+	margin-left: 10px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+
+}
+.feature-right p{
+	color: blueviolet;
+	margin-left: 10px;
+}
+.feature-right .contact-us{
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: antiquewhite;
+	line-height: 40px;
+}
+.bing {
+	width: 100%;
+	height: 250px;
+	background: rgba(222,211,21,0.79);
+	clear: both;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+		
+}
+.bing img{
+	background-size: cover;
+	width: 100%;
+	position: absolute;
+	display: 5;
+	opacity: 0.3;
+}
+.bing h2{
+	color: antiquewhite;
+	position: absolute;
+	margin-top: 110px;
+	margin-left: 490px;
+	display: 9;
+}
+.service{width: 100%}
+.service .container {
+	width: 500px;
+	height: 150px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+.service .container h2{
+	color: blueviolet;
+	text-align: center
+}
+.service .container p {
+	color: rgba(0,0,0,1.00);
+	text-align: center
+}
+.service .container p{
+	color: blueviolet;
+	text-align: center;
+}
+.source-img{
+	width: 100px;
+	float: left;
+	text-align-last: center;
+}
+.source-img img{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+}
