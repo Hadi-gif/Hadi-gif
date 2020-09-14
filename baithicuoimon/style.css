@@ -1,236 +1,86 @@
 @charset "utf-8";
 /* CSS Document */
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+/*!
+*Start Bootstap - Langding Page v5.0.8(https://startbootstrap.com/theme/landing-page)
+Copyright 2013-2020 Start Bootstrap
+*Licensed under MIT (https://github.com/StartBootrap/startbootstrap-landing-page/blod/master/LICENSE)
+8*/
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 700
 }
-
-.wrapper{
-	width: 1920px;
-	height: 4600px;
-	background: none;
-	margin: 0 auto;
-}
-
-.header-main{
-	width: 100%;
-	background: rgba(0,0,0,1.00);
-	position: fixed;
-	z-index: 99999;
-}
-.container{
-	width: 1360px;
-	margin: 0 auto;
-}
-
-.logo{
-	width: 30%;
-	height: 100px;
-	float: left;
+head.masthead {
 	position: relative;
+	background: rgba(32,140,150,1.00);
+background:rgba(205,135,136,1.00) no-repeat center center;
+	background:cover;
+	padding-bottom: 8rem;
+	padding-top: 8rem;
 }
-
-.logo img{
-	width: 50%;
+.header.masthead .overlay {
 	position: absolute;
-	top: 0;
-	right: 10%;
-	
+	background-color: blueviolet;
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+	opacity: .3
 }
-
-
-.menu{
-	width: 60%;
-	height: 100px;
-	float: right;
-	text-align: center;
-	list-style: none;
-	
+header.masthead h1 {
+	font-size: 2rem
 }
+@media (min-width:768px){
+	header.masthead {
 
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+	head.masthead h1 {
+		font-size: 3rem
+	}
+}
+.showcase .showcase-text{
+	padding: 3rem
+}
+.showcase .showcase-img {
+	min-height: 30rem;
+	background-size: cover
+}
+@media (min-width:768px){
+	.showcase .showcase-text {
+		padding: 7rem
+	}
+}
+.testimonials {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+.testimonials .testimonials-item{
+	max-width: 18rem
 
-
-.menu ul li{
-	display: inline-block;
-	text-align: center;
-	font-family: 'Merriweather', serif;
-	font-size: 20px;
+}
+.testimonials .testimonials img{
+	max-width: 12rem;
+	box-shadow: 0 5px 5px 0 #adb5bd
+}
+.call-to-action {
 	position: relative;
-	top: 40px;
-	padding: 0px 50px;
-	background: rgba(255,255,255,1.00);
-   
-}
-
-.menu ul li a{
-	text-decoration: none;
-	color: black;
-}
-
-.content{
-	width: 100%;
-	height: 4080px;
-	background: orange;
-}
-
-.banner{
-	width: 100%;
-	height: 800px;
-	background-repeat: no-repeat;
-	background-size: auto;
-	
-
-}
-.banner img{
-	width: 1920px;
-	height: 850px;
-}
-
-.feature{
-	width: 100%;
-}
-.feature .container{
-	width: 1140px;
-	margin: 0 auto;
-	margin-top: 80px;
-	height: 300px;
-}
-.feature-left{
-	float: left;
-	width: 750px;
-}
-.feature-left h1{
-	color:aliceblue;
-	text-align: center
-}
-.feature-left p{
-	color:rgba(0,0,0,1.00);
-	
-}
-.card{
-	float: left;
-	width: 320px;
-	height: 300px;
-	display: block;
-	margin-right: 50px;
-	padding:20px 30px;
-	margin-bottom: 5px;
-	text-align: center;
-	background-color:aqua;
-}
-
-.piplup img{
-	top: 20px;
-	width:200px;
-	
-	
-}
-.cat img{
-	top: 20px;
-	width:200px;
-}
-.snivy img{
-	width: 200px
-		
-}
-.feature-left p{
-	padding: 30px 15px 30px 0px;
-}
-.feature-left .card h2{
-	margin-top: 65px;
-	color: darkgray;	
-}
-.feature-left .card p{
-	color: antiquewhite;
-	text-align: center;
-	font-size: 16px;
-}
-.feature-right{
-	float: left;
-	width: 390px;
-	border: 2px ;
-}
-.feature-right img{
-	width: 100%;
-	margin-bottom: 5px;
-		
-}
-.feature-right h3{
-	font-size: 18px;
-	color: blueviolet;
-	margin-left: 10px;
-	margin-bottom: 15px;
-	margin-top: 30px;
-
-}
-.feature-right p{
-	color: blueviolet;
-	margin-left: 10px;
-}
-.feature-right .contact-us{
-	margin-top: 30px;
-	margin-left: 10px;
-	margin-bottom: 60px;
-	display: block;
-	text-decoration: none;
-	width: 100px;
-	height: 40px;
-	border-radius: 20px;
-	background-color: antiquewhite;
-	line-height: 40px;
-}
-.bing {
-	width: 100%;
-	height: 250px;
-	background: rgba(222,211,21,0.79);
-	clear: both;
-	overflow: hidden;
-	position: relative;
-	padding: 0;
-	margin: 0;
-		
-}
-.bing img{
+	background-color: rebeccapurple;
+background:rgba(231,127,128,1.00) no-repeat center center;
 	background-size: cover;
+	padding-top: 7rem;
+	padding-bottom:  7rem;
+}
+.call-to-action .overlay{
+	position: absolute;
+	background-color: bisque;
+	height: 100%;
 	width: 100%;
-	position: absolute;
-	display: 5;
-	opacity: 0.3;
+	top:0;
+	left: 0;
+	opacity: .3
+		
 }
-.bing h2{
-	color: antiquewhite;
-	position: absolute;
-	margin-top: 110px;
-	margin-left: 490px;
-	display: 9;
-}
-.service{width: 100%}
-.service .container {
-	width: 500px;
-	height: 150px;
-	margin-top: 80px;
-	margin-bottom: 0px;
-}
-.service .container h2{
-	color: blueviolet;
-	text-align: center
-}
-.service .container p {
-	color: rgba(0,0,0,1.00);
-	text-align: center
-}
-.service .container p{
-	color: blueviolet;
-	text-align: center;
-}
-.source-img{
-	width: 100px;
-	float: left;
-	text-align-last: center;
-}
-.source-img img{
-	width: 200px;
-	height: 200px;
-	background-size: cover;
+footer .footer{
+	padding-top: 4rem;
+	padding-bottom: 4rem
 }
